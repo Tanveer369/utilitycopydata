@@ -1,3 +1,8 @@
 The dc_quick_deploy utility requires an XML file containing the configuration information to create deployment scripts for the desired environment. The XML configuration file contains an environment's settings for software, applications, and components.
 
 The easiest way to create an XML configuration file is to export the current configuration of an existing environment that most closely resembles the one you wish to produce. You can then edit the exported XML file to add or update the configuration information for your desired environment. After you complete your edits, run dc_quick_deploy again, and import the XML configuration file as the input file. This action generates the scripts you deploy on the target servers.
+
+
+Description: de_quick_deploy is a command-line utility used for importing XML configuration files into Siemens Deployment Center, which can then be used to generate deployment scripts for the desired environment.
+
+Functionality: The utility enables users to quickly import an XML configuration file into Siemens Deployment Center, eliminating the need for manual configuration. Once imported, the configuration information is used to generate deployment scripts for the desired environment, ensuring consistency and accuracy.
