@@ -6,3 +6,24 @@ The easiest way to create an XML configuration file is to export the current con
 Description: de_quick_deploy is a command-line utility used for importing XML configuration files into Siemens Deployment Center, which can then be used to generate deployment scripts for the desired environment.
 
 Functionality: The utility enables users to quickly import an XML configuration file into Siemens Deployment Center, eliminating the need for manual configuration. Once imported, the configuration information is used to generate deployment scripts for the desired environment, ensuring consistency and accuracy.
+
+####################################################################################
+Description: Quick Deploy is a command-line utility introduced in Deployment Center Teamcenter 3.1, designed to simplify the management and deployment of Teamcenter environments, including installations, patching, upgrades, and custom software deployment. It supports single box type environments, making it ideal for developer, integration, test, or sandbox environments, and can be integrated with third-party tools for CI/CD and DevOps goals.
+
+Input
+An XML configuration file containing information about the desired environment, including selected applications, software, components, and deployment settings.
+
+Functionality
+Streamlines Teamcenter environment management and deployment
+Supports single box type environments
+Performs installations, patching, upgrades, and custom software deployment
+Integrates with third-party tools like Ansible, Jenkins, Bamboo, GitHub, Azure, etc., for CI/CD and DevOps goals
+Generates a deploy script after successful completion of all steps
+
+
+Functionality: Quick Deploy can perform the following tasks:
+
+Create new environments (developer, integration, test, or sandbox)
+Patch or upgrade existing environments
+Deploy custom software to environments on a scheduled basis
+Generate a deploy script upon successful completion
